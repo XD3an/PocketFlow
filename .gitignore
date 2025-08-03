@@ -48,6 +48,7 @@ wheels/
 .installed.cfg
 *.egg
 venv/
+.venv/
 ENV/
 
 # Logs and databases
@@ -79,8 +80,8 @@ cookbook/pocketflow-multi-agent/.python-version
 
 # local
 uv.lock
-.python-version
-pyproject.toml
+# .python-version
+# pyproject.toml
 usage.md
 cookbook/pocketflow-minimal-example/viz/flow_visualization.html
 cookbook/pocketflow-minimal-example/viz/flow_visualization.json
